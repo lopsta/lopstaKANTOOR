@@ -1,0 +1,107 @@
+﻿<UserControl x:Class="UserControlAdressenListe"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:lopstaControlAdressenVerzeichnis"
+             mc:Ignorable="d" 
+             d:DesignWidth="800"
+             d:DesignHeight="350">
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/lopstaSKIN;component/DictionaryUserControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/lopstaSKIN;component/MenuButtonsDictionary.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/lopstaSKIN;component/DictionaryListView.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>    
+    </UserControl.Resources>
+    
+    <Grid>
+
+        <Grid.Resources>
+
+            <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="pack://application:,,,/lopstaSKIN;component/MenuButtonsDictionary.xaml"/>
+                    <ResourceDictionary>
+                        <Style TargetType="ColumnDefinition">
+                            <Setter Property="Width" Value="*"/>
+                        </Style>
+
+                        <Style x:Key="RowDefinitionMenuVerzeichnisse" TargetType="RowDefinition">
+                            <Setter Property="Height" Value="Auto"/>
+                        </Style>
+
+                        <Style x:Key="RowDefinitionMenuEditDelete" TargetType="RowDefinition">
+                            <Setter Property="Height" Value="Auto"/>
+                        </Style>
+
+                        <Style x:Key="RowDefinitionMenuListe" TargetType="RowDefinition">
+                            <Setter Property="Height" Value="*"/>
+                        </Style>
+
+                        <Style TargetType="StackPanel">
+                            <Setter Property="Orientation" Value="Horizontal"/>
+                            <Setter Property="HorizontalAlignment" Value="Right"/>
+                        </Style>
+
+                        <Style TargetType="ComboBox">
+                            <Setter Property="Height" Value="28"/>
+                        </Style>
+
+                    </ResourceDictionary>
+                </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+        </Grid.Resources>
+
+        <Grid.Style>
+            <Style TargetType="Grid">
+                <Setter Property="Margin" Value="10"/>
+            </Style>
+
+        </Grid.Style>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Style="{StaticResource RowDefinitionMenuEditDelete}"/>
+            <RowDefinition Style="{StaticResource RowDefinitionMenuListe}"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0">
+
+            <!-- ====================================================================================== -->
+            <!-- Headline (Row 0)                                                                       -->
+            <!-- ====================================================================================== -->
+            <TextBlock Style="{StaticResource lopsta.UserControl.Headline}"><Run Text="Adressen:"/></TextBlock>
+
+            <StackPanel>
+                <Button x:Name="ButtonEDIT" Style="{StaticResource MenuButton.Bearbeiten}"/>
+                <Button x:Name="ButtonNEU" Style="{StaticResource MenuButton.Hinzufuegen}"/>
+                <Button x:Name="ButtonLOESCHEN" Style="{StaticResource MenuButton.Loeschen}"/>
+                <Button x:Name="ButtonWeitere" Style="{StaticResource MenuButton.Weitere}" Visibility="Collapsed"/>
+            </StackPanel>
+        </DockPanel>
+
+        <ListView x:Name="ListViewADRESSEN" Grid.Row="1">
+            <ListView.Style>
+                <Style TargetType="{x:Type ListView}">
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                </Style>
+            </ListView.Style>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <Run Text="{Binding Path=Label, Mode=OneWay}"/>
+                    </TextBlock>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </Grid>
+</UserControl>

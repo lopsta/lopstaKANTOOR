@@ -1,0 +1,104 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Farben ................................................. -->
+    <Color x:Key="color001">#ba020e</Color>
+    <!-- lopstaRED -->
+    <Color x:Key="color002">#004c77</Color>
+    <!-- lopstaBLUE -->
+    <Color x:Key="color003">#728ea1</Color>
+    <!-- lopstaPALEBLUE -->
+    <Color x:Key="color004">#e0ca95</Color>
+    <!-- lopstaGOLD -->
+    <Color x:Key="color005">#8a8f8c</Color>
+    <!-- lopstaGREY -->
+    <Color x:Key="color006">#00a31a</Color>
+    <!-- lopstaGREEN -->
+
+    <!-- Brushes ................................................ -->
+    <SolidColorBrush x:Key="brush001" Color="{StaticResource color001}" />
+    <SolidColorBrush x:Key="brush002" Color="{StaticResource color002}" />
+    <SolidColorBrush x:Key="brush003" Color="{StaticResource color003}" />
+    <SolidColorBrush x:Key="brush004" Color="{StaticResource color004}" />
+    <SolidColorBrush x:Key="brush005" Color="{StaticResource color005}" />
+    <SolidColorBrush x:Key="brush006" Color="{StaticResource color006}" />
+
+    <LinearGradientBrush x:Key="gradientFrameBorder" StartPoint="0.2,0.8" EndPoint="0.0,0.0">
+        <GradientStop Color="{StaticResource color005}" Offset="0.1" />
+        <GradientStop Color="White" Offset="0.2" />
+        <GradientStop Color="White" Offset="0.7" />
+        <GradientStop Color="{StaticResource color005}" Offset="0.8" />
+    </LinearGradientBrush>
+
+    <!-- Background ............................................. -->
+    <LinearGradientBrush x:Key="gradientMainWindow" StartPoint="0,0" EndPoint="2,2">
+        <GradientStop Color="White" Offset="0.10" />
+        <GradientStop Color="{StaticResource color005}" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="gradient001" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="Transparent" Offset="0.10" />
+        <GradientStop Color="{StaticResource color001}" Offset="0.90" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="gradient002" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="Transparent" Offset="0.10" />
+        <GradientStop Color="{StaticResource color002}" Offset="0.90" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="gradient003" StartPoint="0,0" EndPoint="2,2">
+        <GradientStop Color="Transparent" Offset="0.10" />
+        <GradientStop Color="{StaticResource color003}" Offset="0.90" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="gradient005" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="Transparent" Offset="0.10" />
+        <GradientStop Color="{StaticResource color005}" Offset="0.90" />
+    </LinearGradientBrush>
+    
+
+    <!-- Get From SystemColors ======================================================== -->
+    <!-- ============================================================================== -->
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.Default.Background" Color="{x:Static SystemColors.ControlColor}"/>
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.Default.Foreground" Color="{x:Static SystemColors.ControlTextColor}"/>
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.Default.BorderBrush" Color="{x:Static SystemColors.InactiveBorderColor}"/>
+
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsMousOver.Background" Color="{x:Static SystemColors.ActiveCaptionColor}"/>
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsMouseOver.Foreground" Color="{x:Static SystemColors.ActiveCaptionTextColor}"/>
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsMouseOver.BorderBrush" Color="{x:Static SystemColors.ActiveBorderColor}"/>
+
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsClicked.Background" Color="{x:Static SystemColors.ControlDarkColor}"/>
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsClicked.Foreground" Color="{x:Static SystemColors.ActiveCaptionTextColor}"/>
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsClicked.BorderBruh" Color="{x:Static SystemColors.ActiveBorderColor}"/>
+
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsSelected.Background" Color="{x:Static SystemColors.ActiveCaptionColor}"/>
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsSelected.Foreground" Color="{x:Static SystemColors.ActiveCaptionTextColor}"/>
+    <SolidColorBrush x:Key="lopsta.ListView.Color.Header.IsSelected.BorderBrush" Color="{x:Static SystemColors.ActiveBorderColor}"/>
+
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.Default.Background" Color="{x:Static SystemColors.ControlLightColor}"/>
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.Default.Foreground" Color="{x:Static SystemColors.ControlTextColor}"/>
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.Default.BorderBrush" Color="{x:Static SystemColors.InactiveBorderBrush}"/>
+
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsMouseOver.Background" Color="{x:Static SystemColors.ActiveCaptionColor}"/>
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsMouseOver.Foreground" Color="{x:Static SystemColors.ActiveCaptionTextColor}"/>
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsMouseOver.BorderBrush" Color="{x:Static SystemColors.ActiveBorderColor}"/>
+
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsClicked.Background" Color="{x:Static SystemColors.ControlDarkColor}"/>
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsClicked.Foreground" Color="{x:Static SystemColors.ControlTextColor}"/>
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsClicked.BorderBrusch" Color="{x:Static SystemColors.ActiveBorderColor}"/>
+
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsSelected.Background" Color="{x:Static SystemColors.ControlColor}"/>
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsSelected.Foreground" Color="{x:Static SystemColors.ControlTextColor}"/>
+    <SolidColorBrush x:Key="lopsa.ListView.Color.Item.IsSelected.BorderBrush" Color="{x:Static SystemColors.WindowFrameColor}"/>
+
+    <!-- System Colors for ListBoxes and ListViews =====================================
+    <SolidColorBrush x:Key="Item.MouseOver.Background" Color="{x:Static SystemColors.ActiveCaptionColor}"/>
+    <SolidColorBrush x:Key="Item.MouseOver.Border" Color="{x:Static SystemColors.ActiveBorderColor}"/>
+    <SolidColorBrush x:Key="Item.SelectedInactive.Background" Color="{x:Static SystemColors.InactiveCaptionColor}"/>
+    <SolidColorBrush x:Key="Item.SelectedInactive.Border" Color="{x:Static SystemColors.InactiveBorderColor}"/>
+    <SolidColorBrush x:Key="Item.SelectedActive.Background" Color="{x:Static SystemColors.ControlColor}"/>
+    <SolidColorBrush x:Key="Item.SelectedActive.Border" Color="{x:Static SystemColors.ActiveBorderColor}"/>
+    -->
+
+</ResourceDictionary>

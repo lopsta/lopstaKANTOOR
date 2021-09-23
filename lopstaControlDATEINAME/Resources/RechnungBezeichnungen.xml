@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+  <item>
+    <label>Rechnung</label>
+    <value>Rng</value>
+  </item>
+  <item>
+    <label>Gebührenberechnung</label>
+    <value>GBer</value>
+  </item>
+  <item>
+    <label>Gebührenberechnung (Excel)</label>
+    <value>GBerExcel</value>
+  </item>
+  <item>
+    <label>Kostenfestsetzungsantrag</label>
+    <value>Kfa</value>
+  </item>
+  <item>
+    <label>Vergütungsvereinbarung</label>
+    <value>HonVer</value>
+  </item>
+</list>

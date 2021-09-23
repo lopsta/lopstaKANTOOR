@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+  <item>
+    <label>Mandant</label>
+    <value>Mdt</value>
+  </item>
+  <item>
+    <label>Mandantin</label>
+    <value>Mdt</value>
+  </item>
+  <item>
+    <label>Rechtsschutzversicherung</label>
+    <value>RS</value>
+  </item>
+  <item>
+    <label>Amtsgericht</label>
+    <value>AG</value>
+  </item>
+  <item>
+    <label>Landgericht</label>
+    <value>LG</value>
+  </item>
+  <item>
+    <label>Oberlandesgericht</label>
+    <value>OLG</value>
+  </item>
+</list>

@@ -1,0 +1,10 @@
+x:\lopstaKANTOOR\lopstaAppSettings\bin\Release\lopstaAppSettings.dll
+x:\lopstaKANTOOR\lopstaAppSettings\bin\Release\lopstaAppSettings.pdb
+x:\lopstaKANTOOR\lopstaAppSettings\bin\Release\lopstaAppSettings.xml
+x:\lopstaKANTOOR\lopstaAppSettings\obj\Release\lopstaAppSettings.vbproj.AssemblyReference.cache
+x:\lopstaKANTOOR\lopstaAppSettings\obj\Release\lopstaAppSettings.Resources.resources
+x:\lopstaKANTOOR\lopstaAppSettings\obj\Release\lopstaAppSettings.vbproj.GenerateResource.cache
+x:\lopstaKANTOOR\lopstaAppSettings\obj\Release\lopstaAppSettings.vbproj.CoreCompileInputs.cache
+x:\lopstaKANTOOR\lopstaAppSettings\obj\Release\lopstaAppSettings.dll
+x:\lopstaKANTOOR\lopstaAppSettings\obj\Release\lopstaAppSettings.xml
+x:\lopstaKANTOOR\lopstaAppSettings\obj\Release\lopstaAppSettings.pdb

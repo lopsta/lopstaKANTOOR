@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaWordTextbausteine", "lopstaWordTextbausteine.vbproj", "{D922ECA4-E91A-4B99-9A3E-8110D83F9D05}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaWordSchnittstelleTextbausteine", "..\lopstaWordSchnittstelleTextbausteine\lopstaWordSchnittstelleTextbausteine.vbproj", "{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D922ECA4-E91A-4B99-9A3E-8110D83F9D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D922ECA4-E91A-4B99-9A3E-8110D83F9D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D922ECA4-E91A-4B99-9A3E-8110D83F9D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D922ECA4-E91A-4B99-9A3E-8110D83F9D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {621213A3-D879-487A-938F-69A3FD242795}
+	EndGlobalSection
+EndGlobal

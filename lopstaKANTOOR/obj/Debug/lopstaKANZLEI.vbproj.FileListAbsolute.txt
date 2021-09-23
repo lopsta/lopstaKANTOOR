@@ -1,0 +1,335 @@
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\AkteBezeichnungen.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\BeaBezeichnungen.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\BeaEmpfaenger.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\DateinameBezeichnungen.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\DateinameEmpfaenger.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\PostAbsender.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\PostBezeichnungen.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\RechnungBezeichnungen.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\RechnungEmpfaenger.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\VermerkBezeichnungen.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\start.html
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\Akte.Template.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.exe.config
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.exe
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.pdb
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.dll
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.dll
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.dll
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.dll
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.pdb
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.pdb
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.pdb
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.pdb
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.xml
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbprojAssemblyReference.cache
+G:\engeneering\lopstaKANZLEI\obj\Debug\Hauptmenue\DialogWindowMainmenu.g.vb
+G:\engeneering\lopstaKANZLEI\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.g.vb
+G:\engeneering\lopstaKANZLEI\obj\Debug\User\DialogWindowUser.g.vb
+G:\engeneering\lopstaKANZLEI\obj\Debug\MainWindow.g.vb
+G:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DialogWindowSettings.g.vb
+G:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DialogWindowUserSettings.g.vb
+G:\engeneering\lopstaKANZLEI\obj\Debug\Application.g.vb
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI_MarkupCompile.cache
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI_MarkupCompile.lref
+G:\engeneering\lopstaKANZLEI\obj\Debug\Application.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\Hauptmenue\DialogWindowMainmenu.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DictionarySettingsFormular.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DictionaryUserSettingsFormular.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\User\DialogWindowUser.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\MainWindow.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DialogWindowSettings.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DialogWindowUserSettings.baml
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.g.resources
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.Resources.resources
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.GenerateResource.cache
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.CoreCompileInputs.cache
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.CopyComplete
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.exe
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.xml
+G:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.pdb
+G:\engeneering\lopstaKANZLEI\bin\Debug\Resources\Justizadressen.xml
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.dll
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.pdb
+G:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\Justizadressen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\AkteBezeichnungen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\BeaBezeichnungen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\BeaEmpfaenger.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\DateinameBezeichnungen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\DateinameEmpfaenger.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\PostAbsender.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\PostBezeichnungen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\RechnungBezeichnungen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\RechnungEmpfaenger.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\VermerkBezeichnungen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\start.html
+D:\engeneering\lopstaKANZLEI\bin\Debug\Resources\Akte.Template.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.exe.config
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.exe
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.pdb
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.dll
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.dll
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.dll
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.dll
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.dll
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.pdb
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.pdb
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.pdb
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.pdb
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.xml
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.pdb
+D:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.xml
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbprojAssemblyReference.cache
+D:\engeneering\lopstaKANZLEI\obj\Debug\Hauptmenue\DialogWindowMainmenu.g.vb
+D:\engeneering\lopstaKANZLEI\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.g.vb
+D:\engeneering\lopstaKANZLEI\obj\Debug\User\DialogWindowUser.g.vb
+D:\engeneering\lopstaKANZLEI\obj\Debug\MainWindow.g.vb
+D:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DialogWindowSettings.g.vb
+D:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DialogWindowUserSettings.g.vb
+D:\engeneering\lopstaKANZLEI\obj\Debug\Application.g.vb
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI_MarkupCompile.cache
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI_MarkupCompile.lref
+D:\engeneering\lopstaKANZLEI\obj\Debug\Application.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\Hauptmenue\DialogWindowMainmenu.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DictionarySettingsFormular.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DictionaryUserSettingsFormular.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\User\DialogWindowUser.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\MainWindow.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DialogWindowSettings.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DialogWindowUserSettings.baml
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.g.resources
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.Resources.resources
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.GenerateResource.cache
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.CoreCompileInputs.cache
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.CopyComplete
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.exe
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.xml
+D:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.pdb
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\Justizadressen.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\AkteBezeichnungen.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\BeaBezeichnungen.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\BeaEmpfaenger.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\DateinameBezeichnungen.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\DateinameEmpfaenger.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\PostAbsender.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\PostBezeichnungen.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\RechnungBezeichnungen.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\RechnungEmpfaenger.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\VermerkBezeichnungen.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\start.html
+J:\engeneering\lopstaKANZLEI\bin\Debug\Resources\Akte.Template.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.exe.config
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.exe
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.pdb
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.dll
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.dll
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.dll
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.dll
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.dll
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.pdb
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.pdb
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.pdb
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.pdb
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.xml
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.pdb
+J:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.xml
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbprojAssemblyReference.cache
+J:\engeneering\lopstaKANZLEI\obj\Debug\Hauptmenue\DialogWindowMainmenu.g.vb
+J:\engeneering\lopstaKANZLEI\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.g.vb
+J:\engeneering\lopstaKANZLEI\obj\Debug\User\DialogWindowUser.g.vb
+J:\engeneering\lopstaKANZLEI\obj\Debug\MainWindow.g.vb
+J:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DialogWindowSettings.g.vb
+J:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DialogWindowUserSettings.g.vb
+J:\engeneering\lopstaKANZLEI\obj\Debug\Application.g.vb
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI_MarkupCompile.cache
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI_MarkupCompile.lref
+J:\engeneering\lopstaKANZLEI\obj\Debug\Application.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\Hauptmenue\DialogWindowMainmenu.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DictionarySettingsFormular.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DictionaryUserSettingsFormular.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\User\DialogWindowUser.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\MainWindow.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DialogWindowSettings.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DialogWindowUserSettings.baml
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.g.resources
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.Resources.resources
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.GenerateResource.cache
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.CoreCompileInputs.cache
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.CopyComplete
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.exe
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.xml
+J:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\Justizadressen.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\AkteBezeichnungen.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\BeaBezeichnungen.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\BeaEmpfaenger.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\DateinameBezeichnungen.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\DateinameEmpfaenger.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\PostAbsender.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\PostBezeichnungen.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\RechnungBezeichnungen.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\RechnungEmpfaenger.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\VermerkBezeichnungen.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Vorlagen\Andere\Vergütungsvereinbarung.pdf
+K:\engeneering\lopstaKANZLEI\bin\Debug\Vorlagen\Excel\Excel Gebührenberechnung.xltx
+K:\engeneering\lopstaKANZLEI\bin\Debug\Vorlagen\Excel\lopstaTIMESHEET2020.xltx
+K:\engeneering\lopstaKANZLEI\bin\Debug\Vorlagen\Formulare\Formular[ Ihre Rechtsschutzversicherung ].pdf
+K:\engeneering\lopstaKANZLEI\bin\Debug\Vorlagen\Vollmachten\Strafprozessvollmacht.pdf
+K:\engeneering\lopstaKANZLEI\bin\Debug\Vorlagen\Word\Briefbogen.dotx
+K:\engeneering\lopstaKANZLEI\bin\Debug\Vorlagen\Word\Datenschutzhinweise.dotx
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\start.html
+K:\engeneering\lopstaKANZLEI\bin\Debug\Resources\Akte.Template.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\Vorlagen\Word\kassebohmBRIEFKOPF.dotx
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.exe.config
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.exe
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaKANZLEI.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlVORLAGEN.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaPROJEKTDATEN.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaWordSchnittstelleTextbausteine.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlAdressenVerzeichnis.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlDATEINAME.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlPROJEKTINHALT.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlVORLAGEN.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaControlVORLAGEN.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaDatenbankJustizadressen.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaPROJEKTDATEN.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaPROJEKTDATEN.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaSKIN.xml
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaWordSchnittstelleTextbausteine.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaWordSchnittstelleTextbausteine.xml
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbprojAssemblyReference.cache
+K:\engeneering\lopstaKANZLEI\obj\Debug\Hauptmenue\DialogWindowMainmenu.g.vb
+K:\engeneering\lopstaKANZLEI\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.g.vb
+K:\engeneering\lopstaKANZLEI\obj\Debug\User\DialogWindowUser.g.vb
+K:\engeneering\lopstaKANZLEI\obj\Debug\MainWindow.g.vb
+K:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DialogWindowSettings.g.vb
+K:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DialogWindowUserSettings.g.vb
+K:\engeneering\lopstaKANZLEI\obj\Debug\Application.g.vb
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI_MarkupCompile.cache
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI_MarkupCompile.lref
+K:\engeneering\lopstaKANZLEI\obj\Debug\Application.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\Hauptmenue\DialogWindowMainmenu.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DictionarySettingsFormular.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DictionaryUserSettingsFormular.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\User\DialogWindowUser.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\MainWindow.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\Settings\DialogWindowSettings.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\UserSettings\DialogWindowUserSettings.baml
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.g.resources
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.Resources.resources
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.GenerateResource.cache
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.CoreCompileInputs.cache
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.vbproj.CopyComplete
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.exe
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.xml
+K:\engeneering\lopstaKANZLEI\obj\Debug\lopstaKANZLEI.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaAppSettings.dll
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaAppSettings.pdb
+K:\engeneering\lopstaKANZLEI\bin\Debug\lopstaAppSettings.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\Justizadressen.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\AkteBezeichnungen.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\BeaBezeichnungen.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\BeaEmpfaenger.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\DateinameBezeichnungen.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\DateinameEmpfaenger.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\PostAbsender.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\PostBezeichnungen.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\RechnungBezeichnungen.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\RechnungEmpfaenger.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\VermerkBezeichnungen.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Vorlagen\Andere\Vergütungsvereinbarung.pdf
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Vorlagen\Excel\Excel Gebührenberechnung.xltx
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Vorlagen\Excel\lopstaTIMESHEET2020.xltx
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Vorlagen\Formulare\Formular[ Ihre Rechtsschutzversicherung ].pdf
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Vorlagen\Vollmachten\Strafprozessvollmacht.pdf
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Vorlagen\Word\Briefbogen.dotx
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Vorlagen\Word\Datenschutzhinweise.dotx
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\start.html
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Resources\Akte.Template.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\Vorlagen\Word\kassebohmBRIEFKOPF.dotx
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaKANZLEI.exe.config
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaKANZLEI.exe
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaKANZLEI.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaKANZLEI.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaAppSettings.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlAdressenVerzeichnis.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlDATEINAME.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlPROJEKTINHALT.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlVORLAGEN.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaDatenbankJustizadressen.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaPROJEKTDATEN.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaSKIN.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaWordSchnittstelleTextbausteine.dll
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaAppSettings.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaAppSettings.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlAdressenVerzeichnis.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlAdressenVerzeichnis.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlDATEINAME.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlDATEINAME.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlPROJEKTINHALT.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlPROJEKTINHALT.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlVORLAGEN.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaControlVORLAGEN.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaDatenbankJustizadressen.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaDatenbankJustizadressen.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaPROJEKTDATEN.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaPROJEKTDATEN.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaSKIN.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaSKIN.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaWordSchnittstelleTextbausteine.pdb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\bin\Debug\lopstaWordSchnittstelleTextbausteine.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Hauptmenue\DialogWindowMainmenu.g.vb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.g.vb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\User\DialogWindowUser.g.vb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\MainWindow.g.vb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Settings\DialogWindowSettings.g.vb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\UserSettings\DialogWindowUserSettings.g.vb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Application.g.vb
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI_MarkupCompile.cache
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI_MarkupCompile.lref
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Application.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Hauptmenue\DialogWindowMainmenu.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Hinzufuegen\DialogWindowHinzufuegen.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Settings\DictionarySettingsFormular.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\UserSettings\DictionaryUserSettingsFormular.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\User\DialogWindowUser.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\MainWindow.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\Settings\DialogWindowSettings.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\UserSettings\DialogWindowUserSettings.baml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.g.resources
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.Resources.resources
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.vbproj.GenerateResource.cache
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.vbproj.CoreCompileInputs.cache
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.vbproj.CopyComplete
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.exe
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.xml
+k:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.pdb
+K:\engeneering\lopstaKANZLEI - Review 2021-09\obj\Debug\lopstaKANZLEI.vbprojAssemblyReference.cache

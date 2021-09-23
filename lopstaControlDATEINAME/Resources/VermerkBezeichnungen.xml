@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+  <item>
+    <label>Vermerk</label>
+    <value>Verm</value>
+  </item>
+  <item>
+    <label>Aktenvermerk</label>
+    <value>AVerm</value>
+  </item>
+  <item>
+    <label>Telefonvermerk</label>
+    <value>TelVerm</value>
+  </item>
+  <item>
+    <label>Telefonnotiz</label>
+    <value>TelNot</value>
+  </item>
+  <item>
+    <label>Verfügung</label>
+    <value>Vfg</value>
+  </item>
+</list>

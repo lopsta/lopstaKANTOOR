@@ -1,0 +1,10 @@
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\bin\Release\lopstaPROJEKTDATEN.dll
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\bin\Release\lopstaPROJEKTDATEN.pdb
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\bin\Release\lopstaPROJEKTDATEN.xml
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\obj\Release\lopstaPROJEKTDATEN.vbproj.AssemblyReference.cache
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\obj\Release\lopstaPROJEKTDATEN.Resources.resources
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\obj\Release\lopstaPROJEKTDATEN.vbproj.GenerateResource.cache
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\obj\Release\lopstaPROJEKTDATEN.vbproj.CoreCompileInputs.cache
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\obj\Release\lopstaPROJEKTDATEN.dll
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\obj\Release\lopstaPROJEKTDATEN.xml
+x:\lopstaKANTOOR\lopstaPROJEKTDATEN\obj\Release\lopstaPROJEKTDATEN.pdb

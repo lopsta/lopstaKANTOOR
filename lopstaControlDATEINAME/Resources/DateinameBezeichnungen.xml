@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+  <item>
+    <label>Schreiben</label>
+    <value>Schreiben</value>
+  </item>
+  <item>
+    <label>Email</label>
+    <value>Email</value>
+  </item>
+  <item>
+    <label>Fax</label>
+    <value>Fax</value>
+  </item>
+  <item>
+    <label>beA</label>
+    <value>beA</value>
+  </item>
+  <item>
+    <label>Antrag</label>
+    <value>Antrag</value>
+  </item>
+  <item>
+    <label>Verteidigungsschrift</label>
+    <value>VertSchr</value>
+  </item>
+</list>

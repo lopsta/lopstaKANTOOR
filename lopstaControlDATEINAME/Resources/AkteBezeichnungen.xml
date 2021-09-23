@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+  <item>
+    <label>Hauptakte (EA)</label>
+    <value>EA</value>
+  </item>
+  <item>
+    <label>Sonderheft (SH)</label>
+    <value>SH</value>
+  </item>
+  <item>
+    <label>Sonderakte (SA)</label>
+    <value>SA</value>
+  </item>
+  <item>
+    <label>Beweismittelordner (BMO)</label>
+    <value>BMO</value>
+  </item>
+  <item>
+    <label>Fallakte (FA)</label>
+    <value>FA</value>
+  </item>
+  <item>
+    <label>Spurenakte (SPA)</label>
+    <value>SPA</value>
+  </item>
+  <item>
+    <label>Telekommunikationsüberwachung (TK)</label>
+    <value>TK</value>
+  </item>
+</list>

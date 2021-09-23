@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+  <item>
+    <label>Schreiben</label>
+    <value>Schreiben</value>
+  </item>
+  <item>
+    <label>Antrag</label>
+    <value>Antrag</value>
+  </item>
+  <item>
+    <label>Stellungnahme</label>
+    <value>Stellungnahme</value>
+  </item>
+  <item>
+    <label>Verteidigungsschrift</label>
+    <value>Verteidigungsschrift</value>
+  </item>
+  <item>
+    <label>Gegenvorstellung</label>
+    <value>Gegenvorstellung</value>
+  </item>
+  <item>
+    <label>Fristverlängerung</label>
+    <value>Fristverlaengerung</value>
+  </item>
+  <item>
+    <label>Terminsverlegung</label>
+    <value>Terminsverlegung</value>
+  </item>
+  <item>
+    <label>Akteneinsicht</label>
+    <value>Akteneinsicht</value>
+  </item>
+  <item>
+    <label>Schriftsatz</label>
+    <value>Schriftsatz</value>
+  </item>
+  <item>
+    <label>Anlage</label>
+    <value>Anlage</value>
+  </item>
+</list>

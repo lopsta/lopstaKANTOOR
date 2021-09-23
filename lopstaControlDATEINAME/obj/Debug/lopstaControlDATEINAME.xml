@@ -1,0 +1,363 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+lopstaControlDATEINAME
+</name>
+</assembly>
+<members>
+<member name="T:lopstaControlDATEINAME.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.AkteBezeichnungen">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Hauptakte (EA)&lt;/label&gt;
+    &lt;value&gt;EA&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Sonderheft (SH)&lt;/label&gt;
+    &lt;value&gt;SH&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Sonderakte (SA)&lt;/label&gt;
+    &lt;value&gt;SA&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Beweismittelordner (BMO)&lt;/label&gt;
+    &lt;value&gt;BMO&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Fallakte (FA)&lt;/label&gt;
+    &lt;value&gt;FA&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Spurenakte (SPA)&lt;/label&gt;
+    &lt;valu [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.BeaBezeichnungen">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Schreiben&lt;/label&gt;
+    &lt;value&gt;Schreiben&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Antrag&lt;/label&gt;
+    &lt;value&gt;Antrag&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Stellungnahme&lt;/label&gt;
+    &lt;value&gt;Stellungnahme&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Verteidigungsschrift&lt;/label&gt;
+    &lt;value&gt;Verteidigungsschrift&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Gegenvorstellung&lt;/label&gt;
+    &lt;value&gt;Gegenvorstellung&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.BeaEmpfaenger">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Mandant&lt;/label&gt;
+    &lt;value&gt;Mdt&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Mandantin&lt;/label&gt;
+    &lt;value&gt;Mdt&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Geschädigter&lt;/label&gt;
+    &lt;value&gt;Gesch&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Geschädigte&lt;/label&gt;
+    &lt;value&gt;Gesch&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Rechtsanwalt&lt;/label&gt;
+    &lt;value&gt;RA&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Polizei&lt;/label&gt;
+    &lt;value&gt;Pol&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;ite [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.DateinameBezeichnungen">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Schreiben&lt;/label&gt;
+    &lt;value&gt;Schreiben&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;value&gt;Email&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Fax&lt;/label&gt;
+    &lt;value&gt;Fax&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;beA&lt;/label&gt;
+    &lt;value&gt;beA&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Antrag&lt;/label&gt;
+    &lt;value&gt;Antrag&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Verteidigungsschrift&lt;/label&gt;
+    &lt;value&gt;VertSchr&lt;/value&gt;
+  &lt;/item&gt;
+&lt;/lis [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.DateinameEmpfaenger">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Mandant&lt;/label&gt;
+    &lt;value&gt;Mdt&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Mandantin&lt;/label&gt;
+    &lt;value&gt;Mdt&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Geschädigter&lt;/label&gt;
+    &lt;value&gt;Gesch&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Geschädigte&lt;/label&gt;
+    &lt;value&gt;Gesch&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Rechtsanwalt&lt;/label&gt;
+    &lt;value&gt;RA&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Polizei&lt;/label&gt;
+    &lt;value&gt;Pol&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;ite [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.PostAbsender">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Mandant&lt;/label&gt;
+    &lt;value&gt;Mdt&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Mandantin&lt;/label&gt;
+    &lt;value&gt;Mdt&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Geschädigter&lt;/label&gt;
+    &lt;value&gt;Gesch&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Geschädigte&lt;/label&gt;
+    &lt;value&gt;Gesch&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Rechtsanwalt&lt;/label&gt;
+    &lt;value&gt;RA&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Polizei&lt;/label&gt;
+    &lt;value&gt;Pol&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;ite [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.PostBezeichnungen">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Schreiben&lt;/label&gt;
+    &lt;value&gt;Schreiben&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;value&gt;Email&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Fax&lt;/label&gt;
+    &lt;value&gt;Fax&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;beA&lt;/label&gt;
+    &lt;value&gt;beA&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Antrag&lt;/label&gt;
+    &lt;value&gt;Antrag&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Verteidigungsschrift&lt;/label&gt;
+    &lt;value&gt;VertSchr&lt;/value&gt;
+  &lt;/item&gt;
+&lt;/lis [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.RechnungBezeichnungen">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Rechnung&lt;/label&gt;
+    &lt;value&gt;Rng&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Gebührenberechnung&lt;/label&gt;
+    &lt;value&gt;GBer&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Kostenfestsetzungsantrag&lt;/label&gt;
+    &lt;value&gt;Kfa&lt;/value&gt;
+  &lt;/item&gt;
+&lt;/list&gt; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.RechnungEmpfaenger">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Mandant&lt;/label&gt;
+    &lt;value&gt;Mdt&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Mandantin&lt;/label&gt;
+    &lt;value&gt;Mdt&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Rechtsschutzversicherung&lt;/label&gt;
+    &lt;value&gt;RS&lt;/value&gt;
+  &lt;/item&gt;
+&lt;/list&gt; ähnelt.
+</summary>
+</member>
+<member name="P:lopstaControlDATEINAME.My.Resources.Resources.VermerkBezeichnungen">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;list&gt;
+  &lt;item&gt;
+    &lt;label&gt;Vermerk&lt;/label&gt;
+    &lt;value&gt;Verm&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Aktenvermerk&lt;/label&gt;
+    &lt;value&gt;AVerm&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Telefonvermerk&lt;/label&gt;
+    &lt;value&gt;TelVerm&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Telefonnotiz&lt;/label&gt;
+    &lt;value&gt;TelNot&lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;label&gt;Verfügung&lt;/label&gt;
+    &lt;value&gt;Vfg&lt;/value&gt;
+  &lt;/item&gt;
+&lt;/list&gt; ähnelt.
+</summary>
+</member>
+<member name="T:lopstaControlDATEINAME.UserControlDateinameBEA">
+<summary>
+UserControlDateinameBEA
+</summary>
+</member>
+<member name="M:lopstaControlDATEINAME.UserControlDateinameBEA.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaControlDATEINAME.UserControlDateinameHONORAR">
+<summary>
+UserControlDateinameHONORAR
+</summary>
+</member>
+<member name="M:lopstaControlDATEINAME.UserControlDateinameHONORAR.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaControlDATEINAME.UserControlDateinamePOSTEINGANG">
+<summary>
+UserControlDateinamePOSTEINGANG
+</summary>
+</member>
+<member name="M:lopstaControlDATEINAME.UserControlDateinamePOSTEINGANG.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaControlDATEINAME.UserControlMenuLeiste">
+<summary>
+UserControlMenuLeiste
+</summary>
+</member>
+<member name="M:lopstaControlDATEINAME.UserControlMenuLeiste.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaControlDATEINAME.WindowUserDialog">
+<summary>
+WindowUserDialog
+</summary>
+</member>
+<member name="M:lopstaControlDATEINAME.WindowUserDialog.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaControlDATEINAME.UserControlDateinamePOSTAUSGANG">
+<summary>
+UserControlDateinamePOSTAUSGANG
+</summary>
+</member>
+<member name="M:lopstaControlDATEINAME.UserControlDateinamePOSTAUSGANG.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

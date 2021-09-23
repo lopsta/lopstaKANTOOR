@@ -1,0 +1,83 @@
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\lopstaKANTOOR.vbproj.AssemblyReference.cache
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\Hauptmenue\DialogWindowMainmenu.g.vb
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\Hinzufuegen\DialogWindowHinzufuegen.g.vb
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\User\DialogWindowUser.g.vb
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\Settings\DialogWindowSettings.g.vb
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\UserSettings\DialogWindowUserSettings.g.vb
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\Application.g.vb
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\lopstaKANZLEI_MarkupCompile.cache
+x:\lopstaKANTOOR\lopstaKANZLEI - Review 2021-09\obj\Release\lopstaKANZLEI_MarkupCompile.lref
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Hauptmenue\DialogWindowMainmenu.g.vb
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Hinzufuegen\DialogWindowHinzufuegen.g.vb
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\User\DialogWindowUser.g.vb
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Settings\DialogWindowSettings.g.vb
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\UserSettings\DialogWindowUserSettings.g.vb
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Application.g.vb
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANZLEI_MarkupCompile.cache
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANZLEI_MarkupCompile.lref
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\AkteBezeichnungen.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\BeaBezeichnungen.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\BeaEmpfaenger.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\DateinameBezeichnungen.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\DateinameEmpfaenger.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\PostAbsender.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\PostBezeichnungen.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\RechnungBezeichnungen.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\RechnungEmpfaenger.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\VermerkBezeichnungen.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Vorlagen\Excel\Excel Gebührenberechnung.xltx
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Vorlagen\Excel\lopstaTIMESHEET2020.xltx
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Vorlagen\Formulare\Formular[ Ihre Rechtsschutzversicherung ].pdf
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\Justizadressen.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\start.html
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\Resources\Akte.Template.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaKANZLEI.exe.config
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaKANZLEI.exe
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaKANZLEI.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaKANZLEI.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaAppSettings.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlAdressenVerzeichnis.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlDATEINAME.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlPROJEKTINHALT.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlVORLAGEN.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaDatenbankJustizadressen.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaPROJEKTDATEN.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaSKIN.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaWordSchnittstelleTextbausteine.dll
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaAppSettings.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaAppSettings.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlAdressenVerzeichnis.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlAdressenVerzeichnis.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlDATEINAME.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlDATEINAME.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlPROJEKTINHALT.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlPROJEKTINHALT.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlVORLAGEN.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaControlVORLAGEN.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaDatenbankJustizadressen.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaDatenbankJustizadressen.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaPROJEKTDATEN.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaPROJEKTDATEN.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaSKIN.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaSKIN.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaWordSchnittstelleTextbausteine.pdb
+x:\lopstaKANTOOR\lopstaKANTOOR\bin\Release\lopstaWordSchnittstelleTextbausteine.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\MainWindow.g.vb
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Application.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Hauptmenue\DialogWindowMainmenu.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Hinzufuegen\DialogWindowHinzufuegen.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Settings\DictionarySettingsFormular.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\UserSettings\DictionaryUserSettingsFormular.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\User\DialogWindowUser.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\MainWindow.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\Settings\DialogWindowSettings.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\UserSettings\DialogWindowUserSettings.baml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANZLEI.g.resources
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANZLEI.Resources.resources
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANTOOR.vbproj.GenerateResource.cache
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANTOOR.vbproj.CoreCompileInputs.cache
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANTOOR.vbproj.CopyComplete
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANZLEI.exe
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANZLEI.xml
+x:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANZLEI.pdb
+X:\lopstaKANTOOR\lopstaKANTOOR\obj\Release\lopstaKANTOOR.vbproj.AssemblyReference.cache

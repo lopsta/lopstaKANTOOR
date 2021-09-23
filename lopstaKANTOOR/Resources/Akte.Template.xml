@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list>
+  <item>
+    <label>Akte</label>
+    <value>01_Akte</value>
+    <item>
+      <label>Hauptakten</label>
+      <value>a_HA</value>
+    </item>
+    <item>
+      <label>Sonderhefte</label>
+      <value>b_SH</value>
+    </item>
+    <item>
+      <label>Beweismittelordner</label>
+      <value>c_BMO</value>
+    </item>
+    <item>
+      <label>Fallakten</label>
+      <value>d_FA</value>
+    </item>
+    <item>
+      <label>Andere</label>
+      <value>e_Andere</value>
+    </item>
+  </item>
+  <item>
+    <label>Handakten</label>
+    <value>02_Handakte</value>
+    <item>
+      <label>Postausgang</label>
+      <value>a_Postausgang</value>
+    </item>
+    <item>
+      <label>Posteingang</label>
+      <value>b_Posteingang</value>
+    </item>
+    <item>
+      <label>Unterlagen von Mandant</label>
+      <value>c_Mandant</value>
+    </item>
+    <item>
+      <label>Diverse Unterlagen</label>
+      <value>d_Diverse</value>
+    </item>
+    <item>
+      <label>Vermerke</label>
+      <value>e_Vermerke</value>
+    </item>
+  </item>
+  <item>
+    <label>Honorar</label>
+    <value>03_Honorar</value>
+    <item>
+      <label>Rechnungen</label>
+      <value>a_Rechnungen</value>
+    </item>
+    <item>
+      <label>Timesheets</label>
+      <value>b_Timesheets</value>
+    </item>
+  </item>
+</list>

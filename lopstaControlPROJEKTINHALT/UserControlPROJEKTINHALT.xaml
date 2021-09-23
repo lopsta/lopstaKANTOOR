@@ -1,0 +1,218 @@
+﻿<UserControl x:Class="UserControlPROJEKTINHALT"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:lopstaControlPROJEKTINHALT"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!-- ====================================================================================== -->
+    <!-- Control Resources                                                                      -->
+    <!-- ====================================================================================== -->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/lopstaSKIN;component/MenuButtonsDictionary.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/lopstaControlPROJEKTINHALT;component/DictionaryLopstaFileExplorer.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <!-- ====================================================================================== -->
+    <!-- Outer Grid                                                                             -->
+    <!-- ====================================================================================== -->
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Style="{StaticResource lopsta.FileExplorer.Grid.Headline}"/>
+            <RowDefinition Style="{StaticResource lopsta.FileExplorer.Menu.Row}"/>
+            <RowDefinition Style="{StaticResource lopsta.FileExplorer.List}"/>
+            <RowDefinition Style="{StaticResource lopsta.FileExplorer.Grid.Suchen}"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- ====================================================================================== -->
+        <!-- Headline (Row 0)                                                                       -->
+        <!-- ====================================================================================== -->
+        <TextBlock Style="{StaticResource lopsta.FileExplorer.Headline}"><Run Text="Inhalt:"/></TextBlock>
+
+        <!-- ====================================================================================== -->
+        <!-- Menu (Row 1)                                                                           -->
+        <!-- ====================================================================================== -->
+        <Grid Style="{StaticResource lopsta.FileExplorer.Menu.Grid}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Style="{StaticResource lopsta.FileExplorer.Menu.Left}"/>
+                <ColumnDefinition Style="{StaticResource lopsta.FileExplorer.Menu.Center}"/>
+                <ColumnDefinition Style="{StaticResource lopsta.FileExplorer.Menu.Right}"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Style="{StaticResource lopsta.FileExplorer.Menu.Row}"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Style="{StaticResource lopsta.FileExplorer.Menu.StackPanel.Left}">
+                <TextBlock Style="{StaticResource lopsta.FileExplorer.Menu.TextBox}"><Hyperlink x:Name="HyperLinkAKTE"><Run Text="Akten"/></Hyperlink></TextBlock>
+                <TextBlock Style="{StaticResource lopsta.FileExplorer.Menu.TextBox}"><Hyperlink x:Name="HyperLinkHANDAKTE"><Run Text="Handakte"/></Hyperlink></TextBlock>
+                <TextBlock Style="{StaticResource lopsta.FileExplorer.Menu.TextBox}"><Hyperlink x:Name="HyperLinkHONORAR"><Run Text="Honorar"/></Hyperlink></TextBlock>
+            </StackPanel>
+
+            <WrapPanel x:Name="WrapPanelAUSWAHLHYPERLINKS">
+                <WrapPanel.Resources>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="Margin" Value="5,0,5,0"/>
+                    </Style>
+                </WrapPanel.Resources>
+                <WrapPanel.Style>
+                    <StaticResource ResourceKey="lopsta.FileExplorer.Menu.Wrappanel.Center"/>
+                </WrapPanel.Style>
+            </WrapPanel>
+
+            <StackPanel Style="{StaticResource lopsta.FileExplorer.Menu.StackPanel.Buttons}">
+                <Button x:Name="ButtonDateiLOESCHEN" Style="{StaticResource MenuButton.Loeschen}"/>
+                <Button x:Name="ButtonDateiWEITERE" Style="{StaticResource MenuButton.Weitere}" Visibility="Collapsed"/>
+            </StackPanel>
+
+        </Grid>
+
+
+        <!-- ====================================================================================== -->
+        <!-- File List (Row 2)                                                                      -->
+        <ListView x:Name="DataGridDATEIEN" Grid.Column="0" Grid.Row="2">
+
+            <ListView.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="pack://application:,,,/lopstaSKIN;component/DictionaryListView.xaml"/>
+                        <ResourceDictionary></ResourceDictionary>
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
+            </ListView.Resources>
+
+            <ListView.Style>
+                <Style TargetType="{x:Type ListView}">
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                </Style>
+            </ListView.Style>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.Resources>
+                            <ResourceDictionary>
+                                
+                                <Style TargetType="Grid">
+                                    
+                                </Style>
+
+                                <Style TargetType="ColumnDefinition" x:Key="ColumnDefinition.Icon">
+                                    <Setter Property="Width" Value="30px"/>
+                                </Style>
+
+                                <Style TargetType="Image" x:Key="Image.Datei.Icon"></Style>
+
+                                <Style TargetType="Image" x:Key="Icon.Pdf" BasedOn="{StaticResource Image.Datei.Icon}">
+                                    <Setter Property="Source" Value=""/>
+                                </Style>
+
+                                <Style TargetType="Image" x:Key="Icon.Word" BasedOn="{StaticResource Image.Datei.Icon}">
+                                    <Setter Property="Source" Value=""/>
+                                </Style>
+
+                                <Style TargetType="ColumnDefinition" x:Key="ColumnDefinition.Datum">
+                                    <Setter Property="Width" Value="90px"/>
+                                </Style>
+
+                                <Style TargetType="TextBlock" x:Key="TextBlock.Datum">
+                                    <Setter Property="Grid.Row" Value="0"/>
+                                </Style>
+
+                                <Style TargetType="ColumnDefinition" x:Key="ColumnDefinition.Bezeichnung">
+                                    <Setter Property="Width" Value="100px"/>
+                                </Style>
+
+                                <Style TargetType="TextBlock" x:Key="TextBlock.Bezeichnung">
+                                    <Setter Property="Grid.Row" Value="0"/>
+                                </Style>
+
+                                <Style TargetType="ColumnDefinition" x:Key="ColumnDefinition.Adressat">
+                                    <Setter Property="Width" Value="100px"/>
+                                </Style>
+
+                                <Style TargetType="TextBlock" x:Key="TextBlock.Adressat">
+                                    <Setter Property="Grid.Row" Value="0"/>
+                                </Style>
+
+                                <Style TargetType="ColumnDefinition" x:Key="ColumnDefinition.Beschreibung">
+                                    <Setter Property="Width" Value="auto"/>
+                                </Style>
+
+                                <Style TargetType="TextBlock" x:Key="TextBlock.Beschreibung">
+                                    <Setter Property="Grid.Row" Value="0"/>
+                                </Style>
+
+                                <!--
+                                TOD= => ggfls löschen. die Bezeichnung Entwurf wird in die Dateibezeichnung integriert
+                                <Style TargetType="ColumnDefinition" x:Key="ColumnDefinition.Entwurf">
+                                    <Setter Property="Width" Value="100px"/>
+                                </Style>
+
+                                <Style TargetType="TextBlock" x:Key="TextBlock.Entwurf">
+                                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                                    <Setter Property="Grid.Row" Value="0"/>
+                                </Style>
+                                -->
+
+                                <Style TargetType="RowDefinition" x:Key="RowDefinition.Item"></Style>
+
+                            </ResourceDictionary>
+                        </Grid.Resources>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Style="{StaticResource ColumnDefinition.Icon}" />
+                            <ColumnDefinition Style="{StaticResource ColumnDefinition.Datum}"/>
+                            <ColumnDefinition Style="{StaticResource ColumnDefinition.Bezeichnung}"/>
+                            <ColumnDefinition Style="{StaticResource ColumnDefinition.Adressat}"/>
+                            <ColumnDefinition Style="{StaticResource ColumnDefinition.Beschreibung}"/>
+                            <!-- ColumnDefinition Style="{StaticResource ColumnDefinition.Entwurf}"/ -->
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Style="{StaticResource RowDefinition.Item}"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Column Icon .................................... -->
+                        <Image Grid.Column="0" Style="{Binding Path=Icon}"/>
+
+                        <!-- Column Datum ................................... -->
+                        <TextBlock Grid.Column="1" Style="{StaticResource TextBlock.Datum}" Text="{Binding Path=Datum, Mode=OneTime}"/>
+
+                        <!-- Column Bezeichnung ................................... -->
+                        <TextBlock Grid.Column="2" Style="{StaticResource TextBlock.Bezeichnung}" Text="{Binding Path=Typ, Mode=OneTime}"/>
+
+                        <!-- Column Adressat ................................... -->
+                        <TextBlock Grid.Column="3" Style="{StaticResource TextBlock.Adressat}" Text="{Binding Path=Adressat, Mode=OneTime}"/>
+
+                        <!-- Column Beschreibung ................................... -->
+                        <TextBlock Grid.Column="4" Style="{StaticResource TextBlock.Beschreibung}" Text="{Binding Path=Bezeichnung, Mode=OneTime}"/>
+
+                        <!-- Column Entwurf ................................... -->
+                        <!-- TextBlock Grid.Column="5" Style="{StaticResource TextBlock.Entwurf}" Text="{Binding Path=Entwurf, Mode=OneTime}"/ -->
+
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
+        <!-- Suchfeld ============================================================== -->
+        <StackPanel Grid.Column="0" Grid.Row="3" Margin="2,10,2,2"  Orientation="Vertical">
+            <Label Content="Suchen:" Foreground="{StaticResource brush003}" FontWeight="Regular"/>
+            <TextBox x:Name="TextBoxDateiSUCHEN" Padding="2"/>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

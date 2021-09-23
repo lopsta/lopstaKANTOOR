@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaKANTOOR", "lopstaKANTOOR.vbproj", "{A1A7C6A0-D94C-4C49-BF37-188DF857678D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaSKIN", "..\lopstaSKIN\lopstaSKIN.vbproj", "{52A31101-8E2D-4291-9D3C-1E5D3CAC5E1C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaControlDATEINAME", "..\lopstaControlDATEINAME\lopstaControlDATEINAME.vbproj", "{4C2C1623-379A-4991-8F71-5149992A048E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaControlPROJEKTINHALT", "..\lopstaControlPROJEKTINHALT\lopstaControlPROJEKTINHALT.vbproj", "{96007DCA-106C-4264-9A76-2CB755702BB0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaDatenbankJustizadressen", "..\lopstaDatenbankJustizadressen\lopstaDatenbankJustizadressen.vbproj", "{DA60EFD3-6133-4DCC-9CB5-1F30F36BD508}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaControlAdressenVerzeichnis", "..\lopstaControlAdressenVerzeichnis\lopstaControlAdressenVerzeichnis.vbproj", "{97622CA3-55BF-4D94-AD63-68432337C82E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaControlVORLAGEN", "..\lopstaControlVORLAGEN\lopstaControlVORLAGEN.vbproj", "{5C229540-41E2-414E-8A57-E07BE99F23CE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaPROJEKTDATEN", "..\lopstaPROJEKTDATEN\lopstaPROJEKTDATEN.vbproj", "{3538031A-2295-44E3-943C-911F5DBC87BB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaAppSettings", "..\lopstaAppSettings\lopstaAppSettings.vbproj", "{281E54B2-A9E2-4184-A3C6-082F001B5AB3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "lopstaWordSchnittstelleTextbausteine", "..\lopstaWordTextbausteine\lopstaWordSchnittstelleTextbausteine\lopstaWordSchnittstelleTextbausteine.vbproj", "{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1A7C6A0-D94C-4C49-BF37-188DF857678D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A7C6A0-D94C-4C49-BF37-188DF857678D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A7C6A0-D94C-4C49-BF37-188DF857678D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A7C6A0-D94C-4C49-BF37-188DF857678D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A31101-8E2D-4291-9D3C-1E5D3CAC5E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A31101-8E2D-4291-9D3C-1E5D3CAC5E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A31101-8E2D-4291-9D3C-1E5D3CAC5E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A31101-8E2D-4291-9D3C-1E5D3CAC5E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2C1623-379A-4991-8F71-5149992A048E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2C1623-379A-4991-8F71-5149992A048E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2C1623-379A-4991-8F71-5149992A048E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2C1623-379A-4991-8F71-5149992A048E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96007DCA-106C-4264-9A76-2CB755702BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96007DCA-106C-4264-9A76-2CB755702BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96007DCA-106C-4264-9A76-2CB755702BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96007DCA-106C-4264-9A76-2CB755702BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA60EFD3-6133-4DCC-9CB5-1F30F36BD508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA60EFD3-6133-4DCC-9CB5-1F30F36BD508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA60EFD3-6133-4DCC-9CB5-1F30F36BD508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA60EFD3-6133-4DCC-9CB5-1F30F36BD508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97622CA3-55BF-4D94-AD63-68432337C82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97622CA3-55BF-4D94-AD63-68432337C82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97622CA3-55BF-4D94-AD63-68432337C82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97622CA3-55BF-4D94-AD63-68432337C82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C229540-41E2-414E-8A57-E07BE99F23CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C229540-41E2-414E-8A57-E07BE99F23CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C229540-41E2-414E-8A57-E07BE99F23CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C229540-41E2-414E-8A57-E07BE99F23CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3538031A-2295-44E3-943C-911F5DBC87BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3538031A-2295-44E3-943C-911F5DBC87BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3538031A-2295-44E3-943C-911F5DBC87BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3538031A-2295-44E3-943C-911F5DBC87BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281E54B2-A9E2-4184-A3C6-082F001B5AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281E54B2-A9E2-4184-A3C6-082F001B5AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281E54B2-A9E2-4184-A3C6-082F001B5AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281E54B2-A9E2-4184-A3C6-082F001B5AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0D65A3-74E8-4ED1-9556-5F6E0EDBCF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E3E5793-D1C4-4D42-A6BA-00DCDE60E906}
+	EndGlobalSection
+EndGlobal

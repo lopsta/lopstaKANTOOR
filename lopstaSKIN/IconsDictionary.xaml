@@ -1,0 +1,60 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="Icon.PowerDown">&#xE7E8;</system:String>
+
+    <system:String x:Key="Icon.GlobalNavigationButton">&#xE700;</system:String>
+    <system:String x:Key="Icon.Start">&#xE80F;</system:String>
+
+    <system:String x:Key="Icon.Einfuegen">&#xE77F;</system:String>
+
+    <system:String x:Key="Icon.ChevronDown">&#xE70D;</system:String>
+    <system:String x:Key="Icon.ChevronUp">&#xE70E;</system:String>
+    <system:String x:Key="Icon.ChevronLeft">&#xE76B;</system:String>
+    <system:String x:Key="Icon.ChevronRight">&#xE76C;</system:String>
+
+    <system:String x:Key="Icon.Weiterleiten">&#xE72A;</system:String>
+    <system:String x:Key="Icon.Zurueck">&#xE72B;</system:String>
+
+    <system:String x:Key="Icon.Aktualisieren">&#xE72C;</system:String>
+
+    <system:String x:Key="Icon.Bearbeiten">&#xE70F;</system:String>
+    <system:String x:Key="Icon.Hinzufuegen">&#xE710;</system:String>
+    <system:String x:Key="Icon.Abbrechen">&#xE711;</system:String>
+    <system:String x:Key="Icon.Weitere">&#xE712;</system:String>
+
+    <system:String x:Key="Icon.Settings">&#xE713;</system:String>
+
+    <system:String x:Key="Icon.Personen">&#xE716;</system:String>
+    <system:String x:Key="Icon.Contact">&#xE77B;</system:String>
+
+    <system:String x:Key="Icon.ContactInfo">&#xE779;</system:String>
+
+    <system:String x:Key="Icon.Mail">&#xE715;</system:String>
+    <system:String x:Key="Icon.Attach">&#xE723;</system:String>
+    <system:String x:Key="Icon.Send">&#xE724;</system:String>
+
+    <system:String x:Key="Icon.Anschluss">&#xE717;</system:String>
+
+    <system:String x:Key="Icon.Calendar">&#xE787;</system:String>
+
+    <system:String x:Key="Icon.Suchen">&#xE721;</system:String>
+
+    <system:String x:Key="Icon.Link">&#xE71B;</system:String>
+
+    <system:String x:Key="Icon.Filter">&#xE71C;</system:String>
+
+    <system:String x:Key="Icon.Drucken">&#xE749;</system:String>
+    <system:String x:Key="Icon.Loeschen">&#xE74D;</system:String>
+    <system:String x:Key="Icon.Speichern">&#xE74E;</system:String>
+    <system:String x:Key="Icon.SaveAs">&#xE792;</system:String>
+    <system:String x:Key="Icon.Cloud">&#xE753;</system:String>
+    <system:String x:Key="Icon.FoderOpen">&#xE838;</system:String>
+
+    <system:String x:Key="Icon.SDCard">&#xE7F1;</system:String>
+
+    <system:String x:Key="Icon.Nils">***</system:String>
+
+</ResourceDictionary>

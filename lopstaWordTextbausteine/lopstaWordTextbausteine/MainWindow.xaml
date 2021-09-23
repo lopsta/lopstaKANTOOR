@@ -1,0 +1,73 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lopstaWordTextbausteine"
+        mc:Ignorable="d"
+        Title="Test lopstWordTextbausteine - Html-Datei mit Style in Word einfügen ..." Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Button x:Name="ButtonEinfuegen" DockPanel.Dock="Bottom" Content="In Word einfügen ..."/>
+            <TextBox x:Name="TextBoxPfad" DockPanel.Dock="Bottom"/>
+            
+            <ListView x:Name="ListViewTextbausteine">
+
+                <ListView.Resources>
+                    <ResourceDictionary>
+                        <ResourceDictionary.MergedDictionaries>
+                            <ResourceDictionary></ResourceDictionary>
+                        </ResourceDictionary.MergedDictionaries>
+                    </ResourceDictionary>
+                </ListView.Resources>
+
+                <ListView.Style>
+                    <Style TargetType="{x:Type ListView}">
+                        <Setter Property="Padding" Value="0"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                    </Style>
+                </ListView.Style>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.Resources>
+                                <ResourceDictionary>
+
+                                    <Style TargetType="Grid">
+
+                                    </Style>
+
+                                    <Style TargetType="ColumnDefinition" x:Key="ColumnDefinition.Aktenzeichen">
+                                        <Setter Property="Width" Value="auto"/>
+                                    </Style>
+
+                                    <Style TargetType="TextBlock" x:Key="TextBlock.Aktzenzeichen">
+                                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                                        <Setter Property="Grid.Row" Value="0"/>
+                                    </Style>
+
+                                    <Style TargetType="RowDefinition" x:Key="RowDefinition.Item"></Style>
+
+                                </ResourceDictionary>
+                            </Grid.Resources>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Style="{StaticResource ColumnDefinition.Aktenzeichen}"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Style="{StaticResource RowDefinition.Item}"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Column Aktenzeichen ................................... -->
+                            <TextBlock Grid.Column="0" Text="{Binding Path=FullName, Mode=OneTime}"/>
+
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </DockPanel>
+    </Grid>
+</Window>

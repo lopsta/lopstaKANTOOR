@@ -1,0 +1,158 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+lopstaKANZLEI
+</name>
+</assembly>
+<members>
+<member name="T:lopstaKANZLEI.My.MyWpfExtension">
+ <summary>
+ Modul zum Definieren der im My-Namespace für WPF verfügbaren Eigenschaften
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:lopstaKANZLEI.My.MyWpfExtension.Application">
+ <summary>
+ Gibt das Anwendungsobjekt für die ausgeführte Anwendung zurück.
+ </summary>
+</member>
+<member name="P:lopstaKANZLEI.My.MyWpfExtension.Computer">
+ <summary>
+ Gibt Informationen über den Hostcomputer zurück.
+ </summary>
+</member>
+<member name="P:lopstaKANZLEI.My.MyWpfExtension.User">
+ <summary>
+ Gibt Informationen über den aktuellen Benutzer zurück.  Wenn Sie die Anwendung mit den aktuellen Windows-
+ Anmeldeinformationen ausführen möchten, rufen Sie My.User.InitializeWithWindowsUser() auf.
+ </summary>
+</member>
+<member name="P:lopstaKANZLEI.My.MyWpfExtension.Log">
+ <summary>
+ Gibt das Anwendungsprotokoll zurück. Die Listener können in der Konfigurationsdatei der Anwendung konfiguriert werden.
+ </summary>
+</member>
+<member name="P:lopstaKANZLEI.My.MyWpfExtension.Windows">
+ <summary>
+ Gibt die im Projekt definierte Windows-Sammlung zurück.
+ </summary>
+</member>
+<member name="T:lopstaKANZLEI.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:lopstaKANZLEI.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:lopstaKANZLEI.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:lopstaKANZLEI.My.Resources.Resources.favicon">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+</summary>
+</member>
+<member name="P:lopstaKANZLEI.My.Resources.Resources.lopstaAppLOGO">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:lopstaKANZLEI.My.Resources.Resources.start">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die &lt;html&gt;
+
+    &lt;head&gt;
+        &lt;title&gt;lopstaNoSleep&lt;/title&gt;
+    &lt;/head&gt;
+    
+    &lt;body&gt;
+        &lt;p&gt;Hallo Welt&lt;/p&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt; ähnelt.
+</summary>
+</member>
+<member name="T:lopstaKANZLEI.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:lopstaKANZLEI.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaKANZLEI.DialogWindowMainmenu">
+<summary>
+DialogWindowMainmenu
+</summary>
+</member>
+<member name="M:lopstaKANZLEI.DialogWindowMainmenu.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaKANZLEI.DialogWindowHinzufuegen">
+<summary>
+DialogWindowHinzufuegen
+</summary>
+</member>
+<member name="M:lopstaKANZLEI.DialogWindowHinzufuegen.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaKANZLEI.DialogWindowUser">
+<summary>
+DialogWindowUser
+</summary>
+</member>
+<member name="M:lopstaKANZLEI.DialogWindowUser.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaKANZLEI.DialogWindowSettings">
+<summary>
+DialogWindowSettings
+</summary>
+</member>
+<member name="M:lopstaKANZLEI.DialogWindowSettings.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaKANZLEI.DialogWindowUserSettings">
+<summary>
+DialogWindowUserSettings
+</summary>
+</member>
+<member name="M:lopstaKANZLEI.DialogWindowUserSettings.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:lopstaKANZLEI.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:lopstaKANZLEI.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:lopstaKANZLEI.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+</members>
+</doc>

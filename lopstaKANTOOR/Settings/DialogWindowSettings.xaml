@@ -1,0 +1,244 @@
+﻿<Window x:Class="DialogWindowSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lopstaKANZLEI"
+        mc:Ignorable="d"
+        Title="Einstellungen" 
+        Width="800" 
+        Topmost="True" 
+        SizeToContent="Height" 
+        ResizeMode="NoResize"
+        >
+    
+    
+    <!-- MainFrame(2 Spalten und 2 Zeilen) ...................................................................................... -->
+    <Grid
+        DataContext="{Binding AppSettings, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}, Mode=OneWay, UpdateSourceTrigger=Explicit}"
+        >
+        <!-- DataContext="{Binding AppSettings, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}, Mode=OneWayToSource, UpdateSourceTrigger=Explicit}" -->
+        <Grid.Resources></Grid.Resources>
+        <Grid.Style>
+            <Style TargetType="Grid">
+                <Setter Property="Margin" Value="10,20,10,10"/>
+            </Style>
+        </Grid.Style>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="410"/>
+            <RowDefinition Height="44"/>
+        </Grid.RowDefinitions>
+
+        
+        
+        <!-- Menü (linke Seite) ................................................................................................. -->
+        <StackPanel Grid.Column="0" Grid.Row="0">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="0,0,0,5"/>
+                </Style>
+            </StackPanel.Resources>
+            <StackPanel.Style>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Margin" Value="0,15,0,0"/>
+                    <Setter Property="Orientation" Value="Vertical"/>
+                </Style>
+            </StackPanel.Style>
+            <!-- Button Seite001 -->
+            <Button x:Name="ButtonSeite001" Content="Einstellungen"/>
+            <Button x:Name="ButtonSeite002" Content="Lizenz"/>
+        </StackPanel>
+
+        
+        
+        <!-- Pages ============================================================================================================== -->
+        
+        <!-- Page 001 ........................................................................... -->
+        <Grid x:Name="GridPage001" Grid.Column="1" Grid.Row="0" Visibility="Visible">
+
+            <Grid.Resources>
+                <ResourceDictionary Source="DictionarySettingsFormular.xaml"/>
+            </Grid.Resources>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" MinWidth="130" MaxWidth="180"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="0"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="0" Content="Ordner - Akten"/>
+            <TextBox Grid.Row="0" x:Name="TextBoxAKTEN" Text="{Binding Path=PfadProjekte, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonAKTEN" Grid.Row="0" Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="1" Content="Ordner - Rechnungen"/>
+            <TextBox Grid.Row="1" x:Name="TextBoxRECHNUNGEN" Text="{Binding Path=PfadRechnungen, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonRECHNUNGEN" Grid.Row="1"  Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="2" Content="Ordner Textbausteine"/>
+            <TextBox Grid.Row="2" x:Name="TextBoxTEXTBAUSTEINE" Text="{Binding Path=PfadTextbausteine, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button Grid.Row="2" x:Name="ButtonTEXTBAUSTEINE"  Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="3" Content="Ordner Briefköpfe"/>
+            <TextBox Grid.Row="3" x:Name="TextBoxBRIEFKOPF" Text="{Binding Path=PfadBriefkoepfe, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonBRIEFKOPF" Grid.Row="3" Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="4" Content="Ordner Word-Vorlagen"/>
+            <TextBox Grid.Row="4" x:Name="TextBoxWORD" Text="{Binding Path=PfadVorlagenWord, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonWORD" Grid.Row="4" Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="5" Content="Ordner Excel-Vorlagen"/>
+            <TextBox Grid.Row="5" x:Name="TextBoxEXCEL" Text="{Binding Path=PfadVorlagenExcel, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonEXCEL" Grid.Row="5" Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="6" Content="Ordner Andere-Vorlagen"/>
+            <TextBox Grid.Row="6" x:Name="TextBoxANDERE" Text="{Binding Path=PfadVorlagenAndere, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonAndere" Grid.Row="6" Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="7" Content="Ordner Vollmachten"/>
+            <TextBox Grid.Row="7" x:Name="TextBoxVollmachten" Text="{Binding Path=PfadVorlagenVollmachten, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonVollmachten" Grid.Row="7" Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="8" Content="Ordner Formulare"/>
+            <TextBox Grid.Row="8" x:Name="TextBoxFormulare" Text="{Binding Path=PfadVorlagenFormulare, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonFormulare" Grid.Row="8" Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label Grid.Row="9" Content="mehrere Benutzer Modus"/>
+            <CheckBox Grid.Row="9" x:Name="CheckBoxIsMultiUser" IsChecked="{Binding IsMultiUser, Mode=OneWay, UpdateSourceTrigger=Explicit}">an/aus</CheckBox>
+
+            <!-- Zeile .............................................................. -->
+            <Label x:Name="LabelUser" Grid.Row="10" Content="Benutzer (Verzeichnis)"/>
+            <TextBox Grid.Row="10" x:Name="TextBoxUSER" Text="{Binding Path=PfadBenutzer, Mode=OneWay, UpdateSourceTrigger=Explicit}"/>
+            <Button x:Name="ButtonUSER" Grid.Row="10" Content="&#xED25;"/>
+
+            <!-- Zeile .............................................................. -->
+            <Label x:Name="LabelOverridesSettings" Grid.Row="11" Content="Benutzereinstellungen"/>
+            <CheckBox Grid.Row="11" x:Name="CheckBoxUserOverridesSettings" IsChecked="{Binding BenutzerUeberschreibtSettings, Mode=OneWay,UpdateSourceTrigger=Explicit}">an (Benutzer) / aus (Standard)</CheckBox>
+
+            <!-- Zeile .............................................................. -->
+            <Label x:Name="LabelFormatAktenzeichen" Grid.Row="12" Content="Aktenzeichen Format"/>
+            <ComboBox Grid.Row="12" x:Name="ComboBoxFORMATAKTENZEICHEN">
+                <ComboBoxItem Content="YY-00"/>
+                <ComboBoxItem Content="YY-000"/>
+                <ComboBoxItem Content="YY-0000" IsSelected="True"/>
+                <ComboBoxItem Content="YY-00000"/>
+                <ComboBoxItem Content="YYYY-00"/>
+                <ComboBoxItem Content="YYYY-000"/>
+                <ComboBoxItem Content="YYYY-0000"/>
+                <ComboBoxItem Content="YYYY-00000"/>
+                <ComboBoxItem Content="00-YY"/>
+                <ComboBoxItem Content="000-YY"/>
+                <ComboBoxItem Content="0000-YY"/>
+                <ComboBoxItem Content="00000-YY"/>
+                <ComboBoxItem Content="00-YYYY"/>
+                <ComboBoxItem Content="000-YYYY"/>
+                <ComboBoxItem Content="0000-YYYY"/>
+                <ComboBoxItem Content="00000-YYYY"/>
+                <ComboBoxItem Content="00"/>
+                <ComboBoxItem Content="000"/>
+                <ComboBoxItem Content="0000"/>
+                <ComboBoxItem Content="00000"/>
+            </ComboBox>
+
+            <!-- Zeile .............................................................. -->
+            <Label x:Name="LabelAutoSave" Grid.Row="13" Content="automatisch speichern"/>
+            <CheckBox Grid.Row="13" x:Name="CheckBoxAutoSave" IsChecked="{Binding AutoSave, Mode=OneWay, UpdateSourceTrigger=Explicit}">an/aus </CheckBox>
+
+            <!-- Zeile .............................................................. -->
+            <Button x:Name="ButtonSTANDARDWERTE002" Grid.Column="1"  Grid.Row="14" Content="Auf Voreinstellungen zurücksetzen ..." HorizontalAlignment="Stretch">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Width" Value="Auto"/>
+                        <Setter Property="Margin" Value="0,7,0,0"/>
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+        </Grid>
+
+        <!-- Page 002 ........................................................................... -->
+        <Grid x:Name="GridPage002" Grid.Column="1" Grid.Row="0" Visibility="Hidden">
+
+            <Grid.Resources>
+                <ResourceDictionary Source="DictionarySettingsFormular.xaml"/>
+            </Grid.Resources>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Zeile Lizenzbestimmungen ........................................... -->
+            <FlowDocumentScrollViewer Grid.Column="0" Grid.Row="0">
+                <FlowDocument></FlowDocument>
+            </FlowDocumentScrollViewer>
+
+            <!-- Zeile Link Webseite ................................................ -->
+            <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center">
+                <Hyperlink x:Name="HyperlinkLostaWebsite">https://www.lopsta.de</Hyperlink>
+            </TextBlock>
+
+        </Grid>
+
+
+        <!-- Dialog Buttons .................................................................................................... -->
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="5,0,0,0"/>
+                    <Setter Property="Width" Value="180"/>
+                </Style>
+            </StackPanel.Resources>
+            <StackPanel.Style>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Margin" Value="10"/>
+                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                    <Setter Property="Orientation" Value="Horizontal"/>
+                </Style>
+            </StackPanel.Style>
+            <!-- Button Übernehmen .................................... -->
+            <Button x:Name="ButtonOk" IsDefault="True" Content="Übernehmen."/>
+            <!-- Button Übernehmen .................................... -->
+            <Button x:Name="ButtonCancel" IsCancel="True" Content="Abbrechen."/>
+        </StackPanel>
+
+    </Grid>
+
+</Window>

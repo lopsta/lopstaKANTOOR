@@ -1,0 +1,475 @@
+﻿<UserControl x:Class="UserControlTEST"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:lopstaControlAdressenVerzeichnis"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid x:Name="GridCONTROL">
+
+        <Grid.Style>
+            <Style TargetType="Grid" />
+        </Grid.Style>
+
+        <Grid.Resources></Grid.Resources>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="410"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Column="0" Grid.Row="0">
+
+            <TabControl.Style>
+                <Style TargetType="TabControl">
+                    <Setter Property="Margin" Value="0,0,0,0"/>
+                </Style>
+            </TabControl.Style>
+
+            <TabControl.Resources>
+                <ResourceDictionary>
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary>
+                            <Style x:Key="lopstaTabItemHeader" TargetType="StackPanel">
+                                <Setter Property="Width" Value="150"/>
+                                <Setter Property="Height" Value="26"/>
+                                <Setter Property="Orientation" Value="Horizontal"/>
+                            </Style>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                            </Style>
+                        </ResourceDictionary>
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
+            </TabControl.Resources>
+
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Style="{StaticResource lopstaTabItemHeader}">
+                        <TextBlock><Run Text="Name und Telefon"/></TextBlock>
+                    </StackPanel>        
+                </TabItem.Header>
+
+                <Grid x:Name="GridFORMULAR001" Grid.Column="0" Grid.Row="0">
+
+                    <Grid.Style>
+                        <Style TargetType="Grid"></Style>
+                    </Grid.Style>
+
+                    <Grid.Resources>
+
+                        <Style TargetType="Label">
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Grid.Column" Value="0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style TargetType="TextBox">
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Margin" Value="0,2,2,2"/>
+                            <Setter Property="Padding" Value="2,0,2,0"/>
+                            <Setter Property="Grid.Column" Value="1"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style TargetType="Button">
+                            <Setter Property="Width" Value="26"/>
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Grid.Column" Value="2"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+                            <Setter Property="FontSize" Value="18"/>
+                        </Style>
+
+                        <Style TargetType="Separator">
+                            <Setter Property="Grid.Column" Value="1"/>
+                            <Setter Property="Margin" Value="10"/>
+                        </Style>
+
+                    </Grid.Resources>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" MinWidth="130" MaxWidth="180"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="0" Content="Anrede"/>
+                    <TextBox Grid.Row="0" x:Name="TextBoxANREDE" Text="{Binding Path=Anrede, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="1" Content="Name"/>
+                    <TextBox Grid.Row="1" x:Name="TextBoxNAME" Text="{Binding Path=Nachname, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="2" Content="Vorname"/>
+                    <TextBox Grid.Row="2" x:Name="TextBoxVORNAME" Text="{Binding Path=Vorname, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="3" Content="Titel"/>
+                    <TextBox Grid.Row="3" x:Name="TextBoxTITEL" Text="{Binding Path=Titel,  Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Separator Grid.Row="4"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="10" Content="Telefon"/>
+                    <TextBox Grid.Row="10" x:Name="TextBoxTELEFON" Text="{Binding Path=Telefon, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="11" Content="Mobil"/>
+                    <TextBox Grid.Row="11" x:Name="TextBoxMOBIL001" Text="{Binding Path=Mobil001, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="12" Content="Mobil (2)"/>
+                    <TextBox Grid.Row="12" x:Name="TextBoxMOBIL002" Text="{Binding Path=Mobil002, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="13" Content="Mobil (3)"/>
+                    <TextBox Grid.Row="13" x:Name="TextBoxMOBIL003" Text="{Binding Path=Mobil003, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="14" Content="Fax"/>
+                    <TextBox Grid.Row="14" x:Name="TextBoxFAX" Text="{Binding Path=Fax, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="15" Content="Email"/>
+                    <TextBox Grid.Row="15" x:Name="TextBoxEMAIL" Text="{Binding Path=Email, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                </Grid>
+
+            </TabItem>
+
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Style="{StaticResource lopstaTabItemHeader}">
+                        <TextBlock><Run Text="Anschrift"/></TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+
+                <Grid x:Name="GridFORMULAR002" Grid.Column="0" Grid.Row="0">
+
+                    <Grid.Style>
+                        <Style TargetType="Grid"></Style>
+                    </Grid.Style>
+
+                    <Grid.Resources>
+
+                        <Style TargetType="Label">
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Grid.Column" Value="0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style TargetType="TextBox">
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Margin" Value="0,2,2,2"/>
+                            <Setter Property="Padding" Value="2,0,2,0"/>
+                            <Setter Property="Grid.Column" Value="1"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style TargetType="Button">
+                            <Setter Property="Width" Value="26"/>
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Grid.Column" Value="2"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+                            <Setter Property="FontSize" Value="18"/>
+                        </Style>
+
+                        <Style TargetType="Separator">
+                            <Setter Property="Grid.Column" Value="1"/>
+                            <Setter Property="Margin" Value="10"/>
+                        </Style>
+
+                    </Grid.Resources>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" MinWidth="130" MaxWidth="180"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="5" Content="Strasse, Nr."/>
+                    <TextBox Grid.Row="5" x:Name="TextBoxSTRASSE" Text="{Binding Path=Strasse,  Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="6" Content="Postleitzahl"/>
+                    <TextBox Grid.Row="6" x:Name="TextBoxPOSTLEITZAHL" Text="{Binding Path=Postleitzahl, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="7" Content="Ort"/>
+                    <TextBox Grid.Row="7" x:Name="TextBoxORT" Text="{Binding Path=Ort, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="8" Content="Land"/>
+                    <TextBox Grid.Row="8" x:Name="TextBoxLAND" Text="{Binding Path=Land, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                </Grid>
+
+            </TabItem>
+
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Style="{StaticResource lopstaTabItemHeader}">
+                        <TextBlock><Run Text="Bankverbindung"/></TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+
+                <Grid x:Name="GridFORMULAR003" Grid.Column="0" Grid.Row="0">
+
+                    <Grid.Style>
+                        <Style TargetType="Grid"></Style>
+                    </Grid.Style>
+
+                    <Grid.Resources>
+
+                        <Style TargetType="Label">
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Grid.Column" Value="0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style TargetType="TextBox">
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Margin" Value="0,2,2,2"/>
+                            <Setter Property="Padding" Value="2,0,2,0"/>
+                            <Setter Property="Grid.Column" Value="1"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style TargetType="Button">
+                            <Setter Property="Width" Value="26"/>
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Grid.Column" Value="2"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+                            <Setter Property="FontSize" Value="18"/>
+                        </Style>
+
+                        <Style TargetType="Separator">
+                            <Setter Property="Grid.Column" Value="1"/>
+                            <Setter Property="Margin" Value="10"/>
+                        </Style>
+
+                    </Grid.Resources>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" MinWidth="130" MaxWidth="180"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="15" Content="Kontoinhaber"/>
+                    <TextBox Grid.Row="15" x:Name="TextBoxKONTOINHABER" Text="{Binding Path=Kontoinhaber, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="16" Content="Bank"/>
+                    <TextBox Grid.Row="16" x:Name="TextBoxBANK" Text="{Binding Path=Bank, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="17" Content="IBAN"/>
+                    <TextBox Grid.Row="17" x:Name="TextBoxIBAN" Text="{Binding Path=IBAN, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="18" Content="BIC"/>
+                    <TextBox Grid.Row="18" x:Name="TextBoxBIC" Text="{Binding Path=BIC, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                </Grid>
+
+            </TabItem>
+
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Style="{StaticResource lopstaTabItemHeader}">
+                        <TextBlock><Run Text="Betreff"/></TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+
+                <Grid x:Name="GridFORMULAR004" Grid.Column="0" Grid.Row="0">
+
+                    <Grid.Style>
+                        <Style TargetType="Grid"></Style>
+                    </Grid.Style>
+
+                    <Grid.Resources>
+
+                        <Style TargetType="Label">
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Grid.Column" Value="0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style TargetType="TextBox">
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Margin" Value="0,2,2,2"/>
+                            <Setter Property="Padding" Value="2,0,2,0"/>
+                            <Setter Property="Grid.Column" Value="1"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style TargetType="Button">
+                            <Setter Property="Width" Value="26"/>
+                            <Setter Property="Height" Value="26"/>
+                            <Setter Property="Grid.Column" Value="2"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+                            <Setter Property="FontSize" Value="18"/>
+                        </Style>
+
+                        <Style TargetType="Separator">
+                            <Setter Property="Grid.Column" Value="1"/>
+                            <Setter Property="Margin" Value="10"/>
+                        </Style>
+
+                    </Grid.Resources>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" MinWidth="130" MaxWidth="180"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="0" Content="Aktenzeichen"/>
+                    <TextBox Grid.Row="0" x:Name="TextBoxAKTENZEICHEN" Text="{Binding Path=Aktenzeichen, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Separator Grid.Row="1"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="2" Content="Betreff (1. Zeile)"/>
+                    <TextBox Grid.Row="2" x:Name="TextBoxBETREFF001" Text="{Binding Path=Betreff001,  Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="3" Content="Betreff (2. Zeile)"/>
+                    <TextBox Grid.Row="3" x:Name="TextBoxBETREFF002" Text="{Binding Path=Betreff002, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="4" Content="Betreff (3. Zeile)"/>
+                    <TextBox Grid.Row="4" x:Name="TextBoxBETREFF003" Text="{Binding Path=Betreff003, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                    <!-- Zeile .............................................................. -->
+                    <Label Grid.Row="5" Content="Betreff (4. Zeile)"/>
+                    <TextBox Grid.Row="5" x:Name="TextBoxBETREFF004" Text="{Binding Path=Betreff004, Mode=OneTime, UpdateSourceTrigger=Explicit}"/>
+
+                </Grid>
+
+            </TabItem>
+
+        </TabControl>
+
+        <!-- Dialog Buttons .................................................................................................... -->
+        <StackPanel x:Name="StackPanelUserControlBUTONS" Grid.Column="0" Grid.Row="1" Visibility="Visible">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="5,0,0,0"/>
+                    <Setter Property="Width" Value="180"/>
+                </Style>
+            </StackPanel.Resources>
+            <StackPanel.Style>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Margin" Value="10"/>
+                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                    <Setter Property="Orientation" Value="Horizontal"/>
+                </Style>
+            </StackPanel.Style>
+            <!-- Button Übernehmen .................................... -->
+            <Button x:Name="ButtonOk" IsDefault="True" Content="Übernehmen."/>
+            <!-- Button Übernehmen .................................... -->
+            <Button x:Name="ButtonCancel" IsCancel="True" Content="Abbrechen."/>
+        </StackPanel>
+
+    </Grid>
+</UserControl>
